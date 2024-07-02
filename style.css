@@ -1,0 +1,38 @@
+body {
+    background-image: url(Img/art.jpg);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    background-color: #000000d1;
+    gap: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:  center;
+    align-items: center;
+}
+.child {
+    
+    height: 30%;
+    width: 30%;
+
+    
+    opacity: 100%;
+}
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+p {
+    color: white;
+}
+img {
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+}
